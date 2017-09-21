@@ -1,28 +1,22 @@
-# this is on the config yml page!
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: false
 
-title: deviations
-email: #your-email@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  various digressions from shelley cavaness
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: shelleycavaness@yahoo.com
-github_username:  shelleycavaness
+# Setup
+title:               ''
+tagline:             ''
+description:         ''
+url:                 ''
+baseurl:             ''
+paginate:            5
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+# About/contact
+author:
+  name:              
+  url:               
+  email:             someone@gmail.com
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Custom vars
+version:             1.0.0
