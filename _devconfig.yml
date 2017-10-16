@@ -1,0 +1,23 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: false
+
+# Setup
+title:               ''
+tagline:             ''
+description:         ''
+url:                 ''
+baseurl:             'http://127.0.0.1:4000/'
+paginate:            5
+
+# About/contact
+author:
+  name:              
+  url:               
+  email:             someone@gmail.com
+
+# Custom vars
+version:             1.0.0
+
