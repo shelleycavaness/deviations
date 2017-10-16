@@ -1,12 +1,11 @@
 <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
-      <img src="images/my_photo_shelley_cavaness" alt="my picture"/>
   </div>
 
   <nav class="sidebar-nav">
@@ -26,15 +25,15 @@
       {% endif %}
     {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">Words of wisdom</a> 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">Contact</a>    
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+    <a class="sidebar-nav-item" href="{{ site.page.url }}">BLOG</a>       
+    <a class="sidebar-nav-item" href="https://github.com/shelleycavaness/deviations">GitHub project</a>
+     
    
   </nav>
 
   <div class="sidebar-item">
     <p>
-      These are the inculdes in the _includes/sidebar.html page
+      
     </p>
   </div>
 </div>
