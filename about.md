@@ -5,4 +5,4 @@ permalink: /about/
 ---
 
 
-WORK IN PROGRESS
+WORK (that will always be) IN PROGRESS
